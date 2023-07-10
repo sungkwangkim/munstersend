@@ -17,10 +17,11 @@ const Home = () => {
     <>
       <Head>
         <title>먼스터 샌드</title>
-        <meta
-          name="description"
-          content="먼스터샌드는 고객의 '주문 즉시 조리, 합니다. 깨끗하고, 건강한 토스트를 만들겠습니다."
-        />
+        <meta property="og:title" content="먼스터 샌드"/>
+        <meta name="description" content="샌드위치의 고정관념을 깨고, 빵은 가볍게 한장, 달걀은 듬뿍! 탄수화물은 줄이고 속은 든든! 살찔 염려는 NO~ 접어서 먹는 신개념 '딱지토스트' 맛있고 건강하게 토스트 하세요"/>
+        <meta property="og:description" content="샌드위치의 고정관념을 깨고, 빵은 가볍게 한장, 달걀은 듬뿍! 탄수화물은 줄이고 속은 든든! 살찔 염려는 NO~ 접어서 먹는 신개념 '딱지토스트' 맛있고 건강하게 토스트 하세요"/>
+        <meta property="og:image" content="/img/share.jpg"/>
+        <meta property="og:site_name" content="먼스터 샌드"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
